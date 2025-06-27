@@ -1,7 +1,11 @@
 body {
-    color: #566787;
-    background: #f5f5f5;
-    font-family: 'Roboto', sans-serif;
+    color: #073015;
+    background-image:url('https://c.wallhere.com/photos/c5/ff/Pok_mon_Ash_Ketchum_Pikachu-2231350.jpg!d');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Segoe UI', sans-serif;
 }
 
 .table-responsive {
@@ -35,16 +39,16 @@ body {
     height: 34px;
     border-radius: 20px;
     padding-left: 35px;
-    border-color: #ddd;
+    border-color: #862912;
     box-shadow: none;
 }
 
 .search-box input:focus {
-    border-color: #3FBAE4;
+    border-color: #f0e4e2;
 }
 
 .search-box i {
-    color: #a0a5b1;
+    color: #8629129d;
     position: absolute;
     font-size: 19px;
     top: 8px;
@@ -139,4 +143,16 @@ table.table td i {
     float: left;
     margin-top: 6px;
     font-size: 95%;
+}
+
+
+header a {
+  color: #071a02; /* Cambiá a lo que quieras: negro, gris, blanco, etc. */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header a:hover {
+  color: #58aa0b; /* color al pasar el mouse */
+  text-decoration: underline;
 }

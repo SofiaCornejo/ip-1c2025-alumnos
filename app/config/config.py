@@ -26,3 +26,4 @@ TYPE_ID_MAP = {
     'dark': 17,
     'fairy': 18
 }
+LOGIN_REDIRECT_URL = '/home/'
